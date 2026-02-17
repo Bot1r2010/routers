@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("../img/17510078267895.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home {
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.h1 {
+  margin-top: 200px;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.btn {
+  padding: 15px 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 30px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.spacer {
+  height: 100vh;
+}
+
+.section {
+  width: 70%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 1s forwards;
+  animation-delay: 0.3s;
+  margin-bottom: 30px;
+}
+
+.text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.p1 {
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #ddd;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
